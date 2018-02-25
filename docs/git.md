@@ -13,7 +13,7 @@
 ![result](img/Selection_2018022501af0.png)
 1. У полі введення тексту введіть `# Домашні завдання <ім'я, прізвище>`
 ![readme](img/Selection_20180225017f2.png)
-1. Натисніть кнопку `Commit new file`
+1. Перемістіться у нижню частину сторінки та натисніть кнопку `Commit new file`
 ![commit_readme](img/Selection_20180225001ede1.png)
 
 Результат:
