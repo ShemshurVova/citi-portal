@@ -1,0 +1,117 @@
+<!doctype html>
+<!-- TODO: Упорядочить отступы DONE -->
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- TODO: несуществующий файл DONE -->
+    <link rel="stylesheet" href="styles/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/Home.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- TODO: background-color лишний. лучше класом DONE -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <a href="#" class="navbar-brand">
+        <!-- TODO: для web лучше использовать png а ещё лучше svg DONE -->
+        <img src="img/Logo.png" width="60" height="60"  alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="news.html" class="nav-link">Новини</a>
+          </li>
+          <li class="nav-item ">
+            <a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal">Гостям міста</a>
+          </li>
+          <li class="nav-item ">
+            <a href="#" class="nav-link">Міська влада</a>
+          </li>
+          <li class="nav-item ">
+            <a href="#" class="nav-link">Громадянам міста</a>
+          </li>
+          <li class="nav-item ">
+            <a href="#" class="nav-link">Розвиток міста</a>
+          </li>
+          <li class="nav-item ">
+            <a href="#" class="nav-link">Відео</a>
+          </li>
+          <li class="nav-item ">
+            <a href="#" class="nav-link">Публічні гроші</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input type="text" class="form-control mr-sm-2" placeholder="Search" aria label="Search">
+          <button class="Btn btn-outline-success my-2 my-sm-0">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="modal  fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"  id="exampleModalLabel">О нас</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Ми команда eMolod</p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn secondary" data-dismiss="modal">close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- TODO: попробуй сделать с помощью vertical pills -->
+<div class="row margin0">
+  <div class="nav flex-column nav-pills col-12 col-sm-4 col-md-4 col-lg-4" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-Citizen-tab" data-toggle="pill" href="#v-pills-Citizen" role="tab" aria-controls="v-pills-Citizen" aria-selected="true">
+        <span class="pills">Звернення громадян</span>
+      </a>
+      <a class="nav-link" id="v-pills-Oholoshennya-tab" data-toggle="pill" href="#v-pills-Oholoshennya" role="tab" aria-controls="v-pills-Oholoshennya" aria-selected="false">
+        <span class="pills">Оголошення</span></a>
+      <a class="nav-link" id="v-pills-map-tab" data-toggle="pill" href="#v-pills-map" role="tab" aria-controls="v-pills-map" aria-selected="false">
+        <span class="pills">Мапа міста</span></a>
+      <a class="nav-link" id="v-pills-Pereselntsi-tab" data-toggle="pill" href="#v-pills-Pereselntsi" role="tab" aria-controls="v-pills-Pereselntsi" aria-selected="false">
+        <span class="pills">Переселнці</span></a>
+      <a class="nav-link" id="v-pills-info-tab" data-toggle="pill" href="#v-pills-info" role="tab" aria-controls="v-pills-info" aria-selected="false">
+        <span class="pills">Доступ до публічної інформації</span></a>
+      <a class="nav-link" id="v-pills-Bezpeka-tab" data-toggle="pill" href="#v-pills-Bezpeka" role="tab" aria-controls="v-Bezpeka-info" aria-selected="false">
+        <span class="pills">Безпека населення</span></a>
+      <a class="nav-link" id="v-pills-Docs-tab" data-toggle="pill" href="#v-pills-Docs" role="tab" aria-controls="v-pills-Docs" aria-selected="false">
+        <span class="pills">Важливі документи</span></a>
+    </div>
+    <div class="tab-content col-12 col-sm-8 col-md-8 col-lg-8" id="v-pills-tabContent">
+      <div class="tab-pane fade show active pills-content" id="v-pills-Citizen" role="tabpanel" aria-labelledby="v-pills-home-tab">Тут буде звернення громадян</div>
+      <div class="tab-pane fade pills-content" id="v-pills-Oholoshennya" role="tabpanel" aria-labelledby="v-pills-Oholoshennya-tab">Индиан-Уэллс (ATP). Монфис вышел во второй круг (Sportarena)
+Украинские прыгуны в воду завоевали две медали на этапе Мировой серии в Пекине (Телеграф).Аль-Ахли Реброва добыл очередную победу в чемпионате Саудовской Аравии (UA-Футбол).Баскетболісти "Дніпра" стали другими фіналістами Кубка України (UNN).Світоліна та Козлова посіли другі місця у голосуванні уболівальників на сайті WTA (Главком)</div>
+      <div class="tab-pane fade pills-content" id="v-pills-map" role="tabpanel" aria-labelledby="v-pills-map-tab">Тут буде карта міста</div>
+      <div class="tab-pane fade pills-content" id="v-pills-Pereselntsi" role="tabpanel" aria-labelledby="v-pills-Pereselntsi-tab">Тут будуть переселенці</div>
+      <div class="tab-pane fade pills-content" id="v-pills-info" role="tabpanel" aria-labelledby="v-pills-info-tab">Тут буде доступ до публічної інформації</div>
+      <div class="tab-pane fade pills-content" id="v-pills-Bezpeka" role="tabpanel" aria-labelledby="v-pills-Bezpeka-tab">Тут буде бе*пека населення</div>
+      <div class="tab-pane fade pills-content" id="v-pills-Docs" role="tabpanel" aria-labelledby="v-pills-Docs-tab">Тут будуть важливі документи</div>
+    </div>
+   </div>
+   <div class="container">
+     <h1><a class="Oholoshennya" href="#">Оголошується конкурс з відбору виконавця послуг з робіт шз землеустрою</a></h1>
+   </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
