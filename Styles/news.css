@@ -9,3 +9,9 @@ h1 {
   color: #b22222;
   text-align: center;
 }
+.tab-pane {
+  margin-left: 50px;
+}
+#pills-tab {
+    margin-left: 25px;
+}

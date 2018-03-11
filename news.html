@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- TODO: несуществующий файл -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="styles/news.css">
     <link rel="stylesheet" href="styles/header.css">
     <title>Hello, world!</title>
@@ -53,19 +54,29 @@
       </div>
     </nav>
 
-    <h1>Черкаські новини</h1>
-    <div id="div1">
-      <p>В історичному центрі Києва стріляли з гранатомету (Інтерфакс-Україна)</p>
-      <p>Сирійські війська взяли під контроль понад половину Східної Гути (Deutsche Welle)</p>
-      <p>Лаціо - Динамо. Анонс матчу 1/8 фіналу Ліги Європи (Футбол 24)</p>
-      <p>Участь міжнародних експертів у формуванні Антикорупційного суду не загрожує суверенітету, - радник TI Україна (Громадське радіо)</p>
-      <p>Війська РФ розміщено для раптової війни проти України, – американські дослідники (24 канал)</p>
-      <p>Кандидатка у президенти Росії Ксенія Собчак потрапила в базу сайту «Миротворець» (Zaxid.net)</p>
-      <p>В Будапеште считают отмену закона Кивалова-Колесниченко угрозой для венгерского меньшинства (Хвиля)</p>
-      <p>Волкер оптимістично налаштований щодо рішення РФ вивести війська з Донбасу (Главком)</p>
-      <p>Внаслідок посухи Україна може втратити до 70% урожаю - ФАО (AgroReview)</p>
-      <p>Марфін Банк змінив назву (mind)</p>
-      <p>Украина за январь 2018 г. произвела 70 тыс. т молока</p>
-    </div>
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa fa-home" aria-hidden="true">&nbsp;</i>Головне</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;Народ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"><i class="fa fa-universal-access" aria-hidden="true"></i>&nbsp;За кордоном</a>
+      </li>
+    </ul>
+  <div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Тут будуть головні новини</di onloadedmetadata=""v>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Тут будуть новини про народ onloadedmetadata=""</div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Тут будут новости за кордоном</div>
+  </div>
   </body>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </html>
